@@ -14,7 +14,7 @@ const App = () => {
 
       <br />
 
-      <div className="mb-3">
+      <div className="home mb-3">
         <Home />
       </div>
 

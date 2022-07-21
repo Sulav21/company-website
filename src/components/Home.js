@@ -3,7 +3,7 @@ import ac from "../images/ac.jpg";
 
 export const Home = () => {
   return (
-    <section id="header" className="d-flex align-items-center p-3">
+    <section id="header" className="d-flex align-items-center p-5 container">
       <div className="container-fluid nav_bg">
         <div className="row">
           <div className="col-10 mx-auto">
@@ -25,7 +25,7 @@ export const Home = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6 order-1 order-lg-2 header-img">
+              <div className="col-lg-6 order-1 order-lg-2 header-img mt-2">
                 <img src={ac} className="img-fluid animated" alt="HomeImg" />
               </div>
             </div>
