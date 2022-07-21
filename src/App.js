@@ -11,9 +11,7 @@ const App = () => {
   return (
     <>
       <NavBar />
-
-      <br />
-
+      
       <div className="home mb-3">
         <Home />
       </div>
