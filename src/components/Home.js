@@ -25,7 +25,7 @@ export const Home = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6 order-1 order-lg-2 header-img mt-2">
+              <div className="col-lg-6 order-1 order-lg-2 header-img">
                 <img src={ac} className="img-fluid animated" alt="HomeImg" />
               </div>
             </div>
