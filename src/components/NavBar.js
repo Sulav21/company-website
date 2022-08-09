@@ -1,17 +1,21 @@
 import React from 'react';
+import logo from '../images/logo.png'
+import './navbar.css'
 
 export const NavBar=()=> {
   return (
-    <div className="container-fluid nav_bg">
+    <div className="navbar-website container-fluid nav_bg">
     <div className="row">
       <div className="col-10 mx-auto">
         <nav className="navbar navbar-expand-lg">
           <div className='d-flex flex-column'>
-          <a className="navbar-brand" href="/" >
-            Hoganz AC Inc.
-          </a>
+
+        <img className='navbar-logo' src={logo} alt='' />
+          {/* <a className="navbar-brand" href="/" >
+            BNA HVAC Services
+          </a> */}
           
-          <a href="tel:0452474678" className='navbar-brand'><h5>0452474678</h5></a>
+          <a href="tel:0452474678" className='navbar-brand'><h5>0435614524</h5></a>
           <button className="navbar-toggler" type="button">
             <span className="navbar-toggler-icon"></span>
           </button>

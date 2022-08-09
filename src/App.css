@@ -35,24 +35,31 @@ img{
 
 .navbar a:hover,
 #header .brand-name {
-  color: #3498db;
+  color: #f4fafd;
 }
 
 #header {
+  
   width: 100%;
   min-height: 70vh;
+
+  background: url('./images/homepage.png');
+  background-size: contain;
+  margin:0;
   /* margin-top: 30px; */
 }
 
+
 #header h1 {
   margin: 0 0 10px 0;
-  font-size: 48px;
+  font-size: 35px;
   font-weight: 700;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 #header h2 {
-  color: #484848;
+  color: rgb(255, 255, 255);
+
   font-size: 24px;
 }
 
@@ -64,14 +71,18 @@ img{
   padding: 10px 30px;
   border-radius: 50px;
   transition: 0.5s;
-  color: #3498db;
-  border: 2px solid #3498db;
   text-decoration: none;
+  color: rgb(255, 255, 255);
+
+
+  /* color: #3498db; */
+  border: 2px solid #f7fcff;
 }
 
 #header .btn-get-started:hover {
-  background: #3498db;
-  color: #fff;
+  background: #f5f9fc;
+  color: black;
+
 }
 
 .header-img {
